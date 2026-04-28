@@ -59,12 +59,11 @@ Binary Search requires a sorted array to work correctly.
 ## Experimental Results
 
 ### Execution Time Results
-
 | Array Size | Bubble Sort (Random) | Merge Sort (Random) | Binary Search | Bubble Sort (Sorted) | Merge Sort (Sorted) |
 |-----------|----------------------|---------------------|---------------|----------------------|---------------------|
-| 10        | 8200 ns              | 4100 ns             | 900 ns        | 1200 ns              | 2600 ns             |
-| 100       | 154300 ns            | 28700 ns            | 1100 ns       | 2200 ns              | 8900 ns             |
-| 1000      | 8421700 ns           | 214500 ns           | 1400 ns       | 7100 ns              | 55400 ns            |
+| 10        | 4100 ns              | 3100 ns             | 1800 ns       | 1500 ns              | 4300 ns             |
+| 100       | 114500 ns            | 40800 ns            | 700 ns        | 2500 ns              | 33500 ns            |
+| 1000      | 2998100 ns           | 110400 ns           | 1500 ns       | 4300 ns              | 73700 ns            |
 
 > Note: execution times may vary slightly on each run depending on system performance.
 
