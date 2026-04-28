@@ -1,7 +1,7 @@
 # Assignment 3: Sorting and Searching Algorithm Analysis System
 
 ## Student Information
-Name: Galymzhankyzy AKnur
+Name: Galymzhankyzy Aknur
 Group: IT - 2501
 
 ---
