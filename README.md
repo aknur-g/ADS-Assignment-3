@@ -105,13 +105,17 @@ If the array is not sorted, it cannot correctly eliminate half of the elements.
 
 ## Screenshots
 
-Program output screenshots are stored in:
+### Full Program Output
+![Full Program Output](docs/screenshots/output-full.png)
 
-- `docs/screenshots/output-full.png`
-- `docs/screenshots/output-small-medium.png`
-- `docs/screenshots/output-large.png`
-- `docs/screenshots/output-second-run.png`
+### Small and Medium Arrays
+![Small and Medium Arrays](docs/screenshots/output-small-medium.png)
 
+### Large Array Performance
+![Large Array Performance](docs/screenshots/output-large.png)
+
+### Second Test Run
+![Second Test Run](docs/screenshots/output-second-run.png)
 ---
 
 ## Reflection
