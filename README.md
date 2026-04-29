@@ -1,7 +1,7 @@
 # Assignment 3: Sorting and Searching Algorithm Analysis System
 
 ## Student Information
-Name: Galymzhankyzy AKnur
+Name: Galymzhankyzy Aknur
 Group: IT - 2501
 
 ---
@@ -59,12 +59,11 @@ Binary Search requires a sorted array to work correctly.
 ## Experimental Results
 
 ### Execution Time Results
-
 | Array Size | Bubble Sort (Random) | Merge Sort (Random) | Binary Search | Bubble Sort (Sorted) | Merge Sort (Sorted) |
 |-----------|----------------------|---------------------|---------------|----------------------|---------------------|
-| 10        | 8200 ns              | 4100 ns             | 900 ns        | 1200 ns              | 2600 ns             |
-| 100       | 154300 ns            | 28700 ns            | 1100 ns       | 2200 ns              | 8900 ns             |
-| 1000      | 8421700 ns           | 214500 ns           | 1400 ns       | 7100 ns              | 55400 ns            |
+| 10        | 4100 ns              | 3100 ns             | 1800 ns       | 1500 ns              | 4300 ns             |
+| 100       | 114500 ns            | 40800 ns            | 700 ns        | 2500 ns              | 33500 ns            |
+| 1000      | 2998100 ns           | 110400 ns           | 1500 ns       | 4300 ns              | 73700 ns            |
 
 > Note: execution times may vary slightly on each run depending on system performance.
 
@@ -105,13 +104,17 @@ If the array is not sorted, it cannot correctly eliminate half of the elements.
 
 ## Screenshots
 
-Program output screenshots are stored in:
+### Full Program Output
+![Full Program Output](docs/screenshots/output-full.png)
 
-- `docs/screenshots/output-full.png`
-- `docs/screenshots/output-small-medium.png`
-- `docs/screenshots/output-large.png`
-- `docs/screenshots/output-second-run.png`
+### Small and Medium Arrays
+![Small and Medium Arrays](docs/screenshots/output-small-medium.png)
 
+### Large Array Performance
+![Large Array Performance](docs/screenshots/output-large.png)
+
+### Second Test Run
+![Second Test Run](docs/screenshots/output-second-run.png)
 ---
 
 ## Reflection
