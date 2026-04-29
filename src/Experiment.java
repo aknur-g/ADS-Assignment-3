@@ -46,7 +46,7 @@ public class Experiment {
 
             long basicRandomTime = measureSortTime(randomArray, "basic");
             long advancedRandomTime = measureSortTime(randomArray, "advanced");
-            long searchTime = measureSearchTime(sortedArray, sortedArray[size / 2]);
+            long searchTime = measureSearchTime(sortedArray, sortedArray[size - 1]);
 
             System.out.println("Bubble Sort (Random): " + basicRandomTime + " ns");
             System.out.println("Merge Sort  (Random): " + advancedRandomTime + " ns");
