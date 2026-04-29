@@ -44,8 +44,10 @@ It recursively divides the array into smaller parts, sorts them, and merges them
 ---
 
 ### Binary Search
-Binary Search works by repeatedly dividing a sorted array into halves to find the target value.  
-It compares the middle element with the target and eliminates half of the remaining elements each step.
+Binary Search was extremely fast, but it also showed why choosing the correct input structure is important.  
+Since Binary Search works by repeatedly dividing the search space in half, it performs efficiently even on large datasets.  
+In this experiment, the last element was used as the target to ensure that the algorithm performs multiple search steps 
+instead of finding the value immediately.
 
 **Time Complexity:**  
 - Best Case: O(1)  
