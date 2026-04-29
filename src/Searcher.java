@@ -1,6 +1,5 @@
 public class Searcher {
 
-    // Searching Algorithm: Binary Search
     public int search(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
@@ -9,16 +8,16 @@ public class Searcher {
             int mid = left + (right - left) / 2;
 
             if (arr[mid] == target) {
-                return mid; // target found
+                return mid;
             }
 
             if (arr[mid] < target) {
-                left = mid + 1; // search right half
+                left = mid + 1;
             } else {
-                right = mid - 1; // search left half
+                right = mid - 1;
             }
         }
 
-        return -1; // target not found
+        return -1;
     }
 }

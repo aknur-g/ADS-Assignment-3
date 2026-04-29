@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class Sorter {
 
-    // Basic Sorting Algorithm: Bubble Sort
     public void basicSort(int[] arr) {
         int n = arr.length;
 
@@ -11,7 +10,6 @@ public class Sorter {
 
             for (int j = 0; j < n - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    // swap elements
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -20,14 +18,12 @@ public class Sorter {
                 }
             }
 
-            // if no swaps happened, array is already sorted
             if (!swapped) {
                 break;
             }
         }
     }
 
-    // Advanced Sorting Algorithm: Merge Sort
     public void advancedSort(int[] arr) {
         mergeSort(arr, 0, arr.length - 1);
     }
@@ -73,7 +69,6 @@ public class Sorter {
         }
     }
 
-    // Print array elements
     public void printArray(int[] arr) {
         for (int num : arr) {
             System.out.print(num + " ");
@@ -81,7 +76,6 @@ public class Sorter {
         System.out.println();
     }
 
-    // Generate random array
     public int[] generateRandomArray(int size) {
         Random random = new Random();
         int[] arr = new int[size];
